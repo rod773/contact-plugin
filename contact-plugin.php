@@ -17,7 +17,10 @@
     class ContactPlugin{
 
       public function __construct(){
-         require_once(plugin_dir_path(__FILE__));
+
+         define('MY_PLUGIN_PATH',plugin_dir_path( __FILE__ ));
+
+         require_once(plugin_dir_path(__FILE__).'/vendor/autoload.php');
       }
         
     }
