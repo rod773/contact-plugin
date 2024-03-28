@@ -20,7 +20,7 @@
 
          define('MY_PLUGIN_PATH',plugin_dir_path( __FILE__ ));
 
-         require_once(plugin_dir_path(__FILE__).'/vendor/autoload.php');
+         require_once(MY_PLUGIN_PATH.'/vendor/autoload.php');
       }
 
       public function initialize(){
