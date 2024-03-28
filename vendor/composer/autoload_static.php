@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInit24e41bbaee1332276f826502c7093d78
 {
     public static $prefixLengthsPsr4 = array (
+        'F' => 
+        array (
+            'Firebase\\JWT\\' => 13,
+        ),
         'C' => 
         array (
             'Carbon_Fields\\' => 14,
@@ -14,6 +18,10 @@ class ComposerStaticInit24e41bbaee1332276f826502c7093d78
     );
 
     public static $prefixDirsPsr4 = array (
+        'Firebase\\JWT\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
+        ),
         'Carbon_Fields\\' => 
         array (
             0 => __DIR__ . '/..' . '/htmlburger/carbon-fields/core',
